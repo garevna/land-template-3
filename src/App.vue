@@ -2,38 +2,54 @@
   <v-app light>
     <AppHeader :page="page"/>
     <v-container fluid class="pa-0 my-0 mx-auto" style="max-width: 1000px">
-      <Top />
+      <section id="home" class="mx-auto">
+        <div class="base-title">
+          <a href="#home" class="core-goto"></a>
+          <Top />
+        </div>
+      </section>
+
       <Compare />
       <Banner />
-      <!-- <v-row justify="center" class="pa-0 ma-0">
-        <v-sheet
-          width="100%"
-          color="homefone"
-          tile
-          class="mx-auto"
-        > -->
-          <Aside />
-      <!-- <v-row class="mx-0 px-0"> -->
-        <!-- <Benefits /> -->
-      <!-- </v-row> -->
-      <!-- <v-row class="mx-0 px-0">
-        <Testimonials />
-      </v-row> -->
-      <!-- <v-row class="mx-0 px-0"> -->
-        <FAQ/>
-      <!-- </v-row> -->
-      <!-- <v-row class="mx-0 px-0">
-        <StayConnected/>
-      </v-row> -->
-      <!-- <v-row> -->
-      <Articles />
-        <section id="footer" class="mx-auto">
+
+      <Aside />
+
+      <!-- <section id="benefits" class="mx-auto">
+        <div class="base-title">
+          <a href="#benefits" class="core-goto"></a>
+          <Benefits />
+        </div>
+      </section> -->
+
+      <!-- <section id="testimonials" class="mx-auto">
+        <div class="base-title">
+          <a href="#testimonials" class="core-goto"></a>
+          <Testimonials />
+        </div>
+      </section> -->
+
+      <section id="faq" class="mx-auto">
+        <div class="base-title">
+          <a href="#faq" class="core-goto"></a>
+          <FAQ/>
+        </div>
+      </section>
+
+      <!-- <StayConnected /> -->
+
+      <section id="articles" class="mx-auto">
+        <div class="base-title">
+          <a href="#articles" class="core-goto"></a>
+          <Articles />
+        </div>
+      </section>
+
+      <section id="footer" class="mx-auto">
         <div class="base-title">
           <a href="#footer" class="core-goto"></a>
           <Footer />
         </div>
       </section>
-      <!-- </v-row> -->
     </v-container>
   </v-app>
 </template>
@@ -109,45 +125,19 @@ p {
   word-break: normal!important;
 }
 
-</style>
-
-<style scoped>
-
-@media screen and (max-width: 900px) {
-  h1, h4 { text-align: center; }
-}
-@media screen and (max-width: 599px) {
-  h1, h4 { text-align: center; }
-}
-
-@media screen and (max-width: 320px) {
-  h1, h4 { width: 100%; text-align: center; }
-}
-
 ::-webkit-scrollbar {
   width: 8px;
 }
 ::-webkit-scrollbar-track {
-  background: #FF0E00;
+  background: #83332C;
 }
 ::-webkit-scrollbar-thumb {
-  background: #E5E5E5;
+  background: #E15240;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #72BF44;
+  background: #E5E5E5;
 }
-/*
-@media screen and (max-width: 600px) {
-  .user-contact {
-    margin-top: -900px;
-  }
-} */
-/*
-@media screen and (max-width: 320px) {
-  .user-contact {
-    margin-top: -900px;
-  }
-} */
+
 </style>
 
 <script>
