@@ -7,7 +7,7 @@
           v-model="panel"
           class="app-bar d-lg-none"
           width="100%"
-          style="position: fixed; margin-top: -12px; margin-left: -12px; z-index: 10"
+          style="position: fixed; z-index: 10"
   >
     <v-expansion-panel style="background: #FAFAFA">
       <v-expansion-panel-header
