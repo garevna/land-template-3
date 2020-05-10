@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid style="overflow-x: hidden; margin-top: 40px; margin-bottom: 64px;">
+  <v-container fluid style="overflow-x: hidden; margin-top: 100px; margin-bottom: 64px;">
     <v-img
           :src="require('@/assets/pictures/headerPicture/family-3.jpg')"
           scroll-threshold="500"
