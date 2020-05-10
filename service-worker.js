@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/dgtek-land-3/precache-manifest.90f5040dde69da183e75c4149471be6d.js"
+  "/dgtek-land-3/precache-manifest.d0bed2d0c63cf3aa628817b02e61fc80.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "dgtek-land-3"});
